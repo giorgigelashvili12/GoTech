@@ -1,0 +1,186 @@
+body{
+    margin:0;
+    padding: 0;
+    position: absolute;
+}
+
+header img{
+    margin: 25px;
+    width: 200px;
+}
+ 
+nav a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #ffd24d;
+    float: left;
+ }
+
+ input {
+   display: block;
+   margin-left: 1130px;
+}
+
+ nav {
+    display: block;
+    margin-right: 20px;
+    margin-bottom: 0;
+ }
+
+form {
+    background-color: #ffd24d;
+    padding: 14px 16px;
+ }
+
+.speciala {
+    background-color: #f56642;
+    color: white;
+}
+
+.speciala:hover {
+    background-color: #fcab88;
+    transition: 1s background-color linear;
+}
+
+nav a:hover {
+    background-color:#fcf188 ;
+    transition: 1s background-color linear;
+}
+
+.header {
+    background-color: white;
+}
+
+h1 {
+    padding: 20px;
+    
+}
+
+main h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.p {
+    background-color: #380012;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+section {
+    font-family: 'Josefin Sans', sans-serif;
+    flex-wrap: wrap;
+    margin: auto;
+    display: flex;
+    
+}
+
+article {
+    text-align: center;
+    padding-left: 70px;
+    margin: 20px;
+    width: 350px;
+}
+
+article img {
+    width: 270px;
+    height: 244px;
+}
+
+article img:hover {
+    transform: scale(1.1);
+    transition: 0.1s linear;
+}
+
+article p {
+    font-size: 20px;
+}
+
+article p:hover {
+    text-decoration: underline;
+}
+
+article h4 {
+    color: #232324;
+}
+
+article a {
+    text-decoration: none;
+    background-color: #fc5b1c;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    border-radius: 10px;
+}
+
+
+
+article a:hover {
+    transition: 0.2s background-color linear;
+    background-color: #fc8c60;
+}
+
+.up {
+    
+    position: fixed;
+    top: 250px;
+    right: 0px;
+    width: auto;
+    background-color: #eb4034;
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+
+.up a{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffdd;
+    text-decoration: none;
+}
+
+
+.up:hover {
+    border: 2px solid black;
+}
+
+footer {
+    background-color: #232324;
+    padding: 0;
+    margin: 0;
+    color: white;
+    justify-content: space-around;
+}
+
+footer img {
+    width: 15%;
+    margin: 45px;
+    margin-left: 100px;
+}
+
+.footertext {
+    float: left;
+    padding: 30px;
+    font-size: 20px;
+    padding-left: 160px;
+}
+
+.footertext2 {
+    font-size: 18px;
+    float: right;
+    padding: 30px;
+    padding-right: 160px;
+}
+
+
+    
+
+

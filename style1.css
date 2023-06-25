@@ -1,0 +1,28 @@
+img {
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 100px;
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+body {
+    background-color: #F9C91F;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    flex: 1;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+img:hover {
+    width: 55%;
+    transition: 1s ease-out;
+}
+

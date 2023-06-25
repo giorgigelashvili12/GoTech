@@ -1,0 +1,37 @@
+header img {
+    position: absolute;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.Letzgo {
+    position: relative;
+    color: #663103;
+    text-decoration: underline #663103;
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 90px;
+    left: 750px;
+    top: 900px;
+    font-weight: 900px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.text {
+    flex: 1;
+    width: 5%;
+    font-size: 30px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+}

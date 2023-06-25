@@ -1,0 +1,86 @@
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    background-color: #fc5b1c;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    border-radius: 10px;
+}
+
+nav {
+    display: block;
+    margin-right: 20px;
+}
+
+a:hover {
+    background-color: #fcab88;
+    transition: 1s background-color linear;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.text {
+    flex: 1;
+    width: 5%;
+}
+
+.aori {
+    font-size: 20px;
+    background-color: indianred;
+    color: white;
+    padding: 10px;
+}
+
+.aori:hover {
+    transition: linear 1s;
+    background-color: crimson;
+}
+
+body {
+    font-family: 'Bagel Fat One', cursive;
+}
+
+h2 {
+    font-family: 'Dosis', sans-serif;
+}
+
+h2:hover {
+    background-image: url(https://www.iconpacks.net/icons/2/free-shining-star-icon-2776-thumb.png);
+    transition: ease-in 1s;
+}
+
+.img {
+    width: 370px;
+    height: 244px;
+    
+}
+
+
+section {
+    flex-wrap: wrap;
+    margin: 15px;
+    display: flex;
+}
+
+article {
+    text-align: center;
+    padding-left: 70px;
+    margin: 20px;
+}
+
+
